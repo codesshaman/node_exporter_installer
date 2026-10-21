@@ -24,7 +24,8 @@ build:
 
 help:
 	@echo -e "$(OK_COLOR)==== All commands of ${name} configuration ====$(NO_COLOR)"
-	@echo -e "$(WARN_COLOR)- make build			: Build configuration"
+	@echo -e "$(WARN_COLOR)- make build			: Install node-exporter"
+	@echo -e "$(WARN_COLOR)- make service			: Create service"
 	@echo -e "$(WARN_COLOR)- make clean			: Cleaning configuration$(NO_COLOR)"
 
 git:
